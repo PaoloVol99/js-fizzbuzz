@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container,
+.container-2 {
+    margin-bottom: 30px;
+    background-color: rgb(193, 193, 193);
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#content-wrapper-2,
+#content-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 15px 30px;
+
+}
+
+.printed {
+    padding: 0 10px;
+    background-color: orange;
+    border-radius: 5px;
+    width: auto;
+    margin: 4px 0;
+}
