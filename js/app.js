@@ -8,11 +8,11 @@ for (let i = 1; i <= 100; i++) {
     // console.log(i)
 
     if (resto15 === 0) {
-        console.log(i, 'FizzBuzz')
+        console.log('FizzBuzz')
     } else if (resto5 === 0) {
-        console.log(i, 'Buzz')
+        console.log('Buzz')
     } else if (resto3 === 0) {
-        console.log(i, 'Fizz')
+        console.log('Fizz')
     } else {
         console.log(i)
     }
